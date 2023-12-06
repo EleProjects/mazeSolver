@@ -23,3 +23,7 @@ class Window:
 
     def close(self):
         self.is_running = False
+
+def main():
+    win = Window(800, 600)
+    win.wait_for_close()
